@@ -1,93 +1,37 @@
-<file include="header.hti">
+<file include="head.hti">
 
 <body>
-<table width="920" border="0" cellspacing="0" cellpadding="0">
-  	<tr>
-    <td align="center" colspan="3" height="50"><h1>here</h1>
-<!-- Mirrored from www.washoecourts.com/index.cfm?page=location by HTTrack Website Copier/3.x [XR&CO'2008], Mon, 20 Oct 2014 18:31:37 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
-<table width="100%">
-<tr>
-<td width="75%">&nbsp;</td>
-<td valign="middle" width="25%" height="125" align="center"><font size="-1"><a href="index53a6.html?page=contact"><strong>@ contact us</strong></a><br><font size="-1"><strong>(775) 328-3110</strong></font></td>
-</tr>
-</table>
-
-</td>
-	</tr>
-  <tr>
-  <td width="5"></td>
-  <td width="200" align="left" valign="top">
-	<file include="left_menu.hti">
-  
-</td>
-    <td width="710" valign="top" height="100%" align="left">
-    <div id="c2">
-	<div class="content">
-
-<div class="contentMain">
-<p align="center"><u>Physical Addresses</u><br />
-<p align="center">General Jurisdiction<br />
-            75 Court Street<br />
-            Reno, NV 89501<br />
-            (775)328-3110<br />
-            <br />
-            Family Division<br />
-            1 South Sierra Street<br />
-            Reno, NV 89501<br />
-            (775)328-3110<br />
-  </p>
-<p align="center"><u>Mailing Address</u><br />
-<p align="center">75 Court Street<br />
-Reno, NV 89501<br />
-</p>
-</div>
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=75+Court+Street,+Reno,+NV&amp;sll=37.0625,-95.677068&amp;sspn=48.287373,74.003906&amp;ie=UTF8&amp;hq=&amp;hnear=75+Court+St,+Reno,+Washoe,+Nevada+89501&amp;z=14&amp;ll=39.523493,-119.812863&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=75+Court+Street,+Reno,+NV&amp;sll=37.0625,-95.677068&amp;sspn=48.287373,74.003906&amp;ie=UTF8&amp;hq=&amp;hnear=75+Court+St,+Reno,+Washoe,+Nevada+89501&amp;z=14&amp;ll=39.523493,-119.812863" style="color:#0000FF;text-align:left">View Larger Map</a></small>
-
-
-<!-- Mirrored from www.washoecourts.com/index.cfm?page=location by HTTrack Website Copier/3.x [XR&CO'2008], Mon, 20 Oct 2014 18:31:37 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-</html>
-
+<div class="wholepage">
+  <header class="main-header">
+    <div class="headerimage">
+      <img src="local_changes/Renoskyline.gif" alt="Header Image" width="450px" height="226px">
     </div>
+    <div class="hdrtext">
+      Second Judicial Court<br>
+      State of Nevada<br>
+      County of Washoe
     </div>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="3" height="100" align="center">
+  </header>
+  <div class="content">
+    <div class="left column">
+  	 <file include="left_menu.hti">
+    </div>
 
+    <div class="center column">
+      <file include="location-content.hti">
+    </div>
 
-
+    <div class="right column">
+      Right column content
+    </div>
+  </div>
 <hr size="3">
-<div id="footer">
-<div id="footercontent">
-<table width="100%" height="100%">
-<tr>
-<td align="center">
-<font size="+1" color="#FFCC00"><a href="http://translate.google.com/">&bull;Translate This Site Using Google&bull;</a></font><br>
-<font color="#f5f5f5">&copy; Copyright 2012 Second Judicial District Court, State of Nevada, Washoe County All Rights Reserved.</font><br />
-<font color="#FFCC00"><strong>Court Employee Emergency Hotline</strong><br />
-              775-328-3535</font>
-</td>
-</tr>
+<div class="footer">
+  <file include="footer.hti">
+</div>
 
-<tr>
-<td align="center">
-</td>
-</tr>
-</table>
-</div>
-</div>
-</td>
-  </tr>
-</table>
+
 </body>
 
-<!-- Mirrored from www.washoecourts.com/index.cfm?page=location by HTTrack Website Copier/3.x [XR&CO'2008], Mon, 20 Oct 2014 18:31:37 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 </html>
- <br />
- 
-		
-		
