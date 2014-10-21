@@ -10,18 +10,19 @@ body {
 	background: #ECF0F1;
 	color: white;
 	font: 1.3em/1.6 sans-serif;
+	color: black;
 }
 
 .wholepage {
 	margin: auto;
-	width: 90%;
+	width: 99%;
 }
 
 .main-header {
 	position: relative;
 	width: 100%;
 	height: 250px;
-	background: #ddd;
+	background: #98AFC7;
 	text-align: left;
 	display: inline-block;
 	top: 0; left: 0;
@@ -58,11 +59,13 @@ body {
 }
 .center {
 	width: 70%;
-	background: #2ECC71;
+	background: white;
+	border: 1px solid black;
 }
 .right {
 	display: none;
-	background: #E74C3C;
+	background: #white;
+	padding: 2px;
 }
 
 .main-header, 
@@ -80,6 +83,21 @@ body {
     font: 1.3em/1.6 sans-serif;
 }
 
+.map_canvas {
+	position: relative;
+	padding-bottom: 90%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+
+.map_canvas iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
 /* phones to tablets */
 @media only screen and (min-width: 481px) {
 	.column {
@@ -92,19 +110,22 @@ body {
 		width: 31.914893617021%; 
 	}
 	.right {
-		margin-left: 2.127659574468%;
+		margin-left: 0;
+/*		margin-left: 2.127659574468%;*/
 	}
 }
 
 /* Tablets to Desktop */
-
 @media only screen and (min-width: 769px) {	
 	.center {
-		width: 40.425531914894%;
+		width: 50%;
 	}
-	.left, .right {
+	.left {
 		display: block;
-		width: 23.404255319149%;
+		width: 15%;
+	} .right {
+		display: block;
+		width: 35%;
 	}
 }
 
