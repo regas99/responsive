@@ -1,3 +1,5 @@
+/*  tfs - disabled background images due to mising images */
+
 /* 
   -----------------------------------
   Tree Menu Magic 2
@@ -13,7 +15,7 @@
 	padding: 0px;
 	zoom: 1;
 	border-bottom: 1px solid #000;
-	background-image: url(img/tmm_rootGradientBlack.jpg);
+/*	background-image: url(img/tmm_rootGradientBlack.jpg);*/
 	background-repeat: repeat-y;
 	background-color: #333;
 	border-top: 1px solid #333;
@@ -29,8 +31,8 @@
 }
 .p7TMM04 ul div {
 	background-color: #FFF;
-	background-image: url(img/tmmbevel_white.jpg);
-	background-repeat: repeat-x;
+/*	background-image: url(img/tmmbevel_white.jpg);
+*/	background-repeat: repeat-x;
 }
 .p7TMM04 ul ul div {
 	background-color: transparent;
@@ -71,34 +73,34 @@
 	text-decoration: underline;
 }
 .p7TMM04 a.p7tmm_page {
-	background-image: url(img/tmm_page_square_gray.gif);
-	background-repeat: no-repeat;
+/*	background-image: url(img/tmm_page_square_gray.gif);
+*/	background-repeat: no-repeat;
 	background-position: left center;
 }
 .p7TMM04 ul ul a.p7tmm_page {
-	background-image: url(img/tmm_page_squareopen_white.gif);
-}
+/*	background-image: url(img/tmm_page_squareopen_white.gif);
+*/}
 .p7TMM04 ul ul a.p7tmm_page:hover {
-	background-image: url(img/tmm_page_square.gif);
-}
+/*	background-image: url(img/tmm_page_square.gif);
+*/}
 .p7TMM04 a.trig_closed {
-	background-image: url(img/tmm_east_gray.gif);
-	background-repeat: no-repeat;
+/*	background-image: url(img/tmm_east_gray.gif);
+*/	background-repeat: no-repeat;
 	background-position: left center;
 }
 .p7TMM04 ul ul a.trig_closed {
-	background-image: url(img/tmm_east_black.gif);
-}
+/*	background-image: url(img/tmm_east_black.gif);
+*/}
 .p7TMM04 a.trig_open {
-	background-image: url(img/tmm_south_gray.gif);
-	background-repeat: no-repeat;
+/*	background-image: url(img/tmm_south_gray.gif);
+*/	background-repeat: no-repeat;
 	background-position: left center;
 	color: #EEE;
 }
 .p7TMM04 ul ul a.trig_open {
 	color: #000;
-	background-image: url(img/tmm_south_black.gif);
-	text-decoration: underline;
+/*	background-image: url(img/tmm_south_black.gif);
+*/	text-decoration: underline;
 }
 .p7TMM04 a.current_mark, .p7TMM04 a.current_mark:hover {
 	color:#EEE;
