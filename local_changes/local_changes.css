@@ -46,12 +46,13 @@ body {
 }
 
 .content, 
-.main-header {
+.main-header,
+.main_footer {
 	overflow: hidden;
 }
 
 .column {
-	width: 15%;
+	width: 100%;
 	min-height: 100px;
 }
 
@@ -75,18 +76,22 @@ body {
 	border-radius: 5px;
 }
 
+.main-footer {
+	text-align: center;
+}
+
 #contact {
 	width:50%;
 	margin-left: auto;
     margin-right: auto;
     background: #ECF0F1;
-    color: white;
+    color: black;
     font: 1.3em/1.6 sans-serif;
 }
 
 .map_canvas {
 	position: relative;
-	padding-bottom: 90%; // This is the aspect ratio
+	padding-bottom: 100%; // This is the aspect ratio
 	height: 0;
 	overflow: hidden;
 }
@@ -105,14 +110,13 @@ body {
 		float: left;
 	}
 	.center {
-		width: 65.957446808511%;
+		width: 100%;
 	}
 	.left {
-		width: 31.914893617021%; 
+		width: 100%; 
 	}
 	.right {
-		margin-left: 0;
-/*		margin-left: 2.127659574468%;*/
+		display: none;
 	}
 }
 

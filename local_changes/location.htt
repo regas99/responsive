@@ -28,7 +28,7 @@
   </div>
 
 <hr size="3">
-<div class="footer">
+<div class="main-footer">
   <file include="footer.hti">
 </div>
 
