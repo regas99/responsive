@@ -80,7 +80,7 @@ body {
 	text-align: center;
 }
 
-#contact {
+.contact {
 	width:50%;
 	margin-left: auto;
     margin-right: auto;
@@ -103,6 +103,22 @@ body {
 	width: 100% !important;
 	height: 100% !important;
 }
+
+/* antique devices */
+/*@media only screen and (min-width: 100px) {
+	.column {
+		float: left;
+	}
+	.center {
+		width: 100%;
+	}
+	.left {
+		width: 100%; 
+	}
+	.right {
+		display: none;
+	}
+}*/
 
 /* phones to tablets */
 @media only screen and (min-width: 481px) {
