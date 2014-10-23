@@ -13,7 +13,7 @@
       County of Washoe
     </div>
   </header>
-  <div class="localcontent">
+  <div class="content">
     <div class="left column">
   	 <file include="left_menu.hti">
     </div>
