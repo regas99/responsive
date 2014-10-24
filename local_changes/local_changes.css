@@ -32,7 +32,15 @@ body {
 	position: relative;
 	padding: 0px 20px;
 }
-#hdrtext {
+.hdrtext {  /* support for location 1 */
+	position: relative;
+	color: black;
+	left: 10px;
+	top: -205px;
+	font: small-caps 1.3em/1.6em sans-serif;
+	text-shadow: 2px 2px white;
+}
+#header-text {
 	display: block;
 	float: left;
 	position: relative;
