@@ -2,18 +2,11 @@
 
 <body>
 
-<div class="wholepage">
-  <header class="main-header">
-    <div class="headerimage">
-      <img src="local_changes/Renoskyline.gif" alt="Header Image" width="450px" height="226px">
-    </div>
-    <div class="hdrtext">
-      Demo of Second Judicial Court<br>
-      State of Nevada<br>
-      County of Washoe
-    </div>
-  </header>
-  <div class="localcontent">
+<div id="wholepage">
+
+    <file include="top_menu.hti">
+
+  <div id="content">
     <div class="left column">
   	 <file include="left_menu.hti">
     </div>
@@ -26,9 +19,8 @@
       <file include="toprequests.hti">
     </div>
   </div>
-
 <hr size="3">
-<div class="main-footer">
+<div id="footer">
   <file include="footer.hti">
 </div>
 

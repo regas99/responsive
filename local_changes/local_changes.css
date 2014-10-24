@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 body {
@@ -13,41 +14,70 @@ body {
 	color: black;
 }
 
-.wholepage {
+#wholepage {
 	margin: auto;
 }
 
-.main-header {
-	position: relative;
-	width: 100%;
-	height: 250px;
-	background: #98AFC7;
-	text-align: left;
-	display: inline-block;
-	top: 0; left: 0;
-}
 
-.headerimage {
-	position: relative;
-	top: 10px;
-	left: 5px;
-	z-index: 1;
+/* layout for header with links */
+#header-outer {
+	border-bottom: 5px solid #98AFC7;
 }
-.hdrtext {
+#header {
+    background: url('./Renoskyline.gif')
+	 	repeat-x scroll left top transparent;
+}
+#header-inner {
+	min-height: 226px;
 	position: relative;
-	font-size: 2.5rem;
+	padding: 0px 20px;
+}
+#hdrtext {
+	display: block;
+	float: left;
+	position: relative;
 	color: 0;
-	left: 10px;
-	top: -205px;
-	font: 1.3em/1.6em sans-serif;
+	top: 15px;
+	left: 5px;
+	font: 1.5rem/1.8rem sans-serif;
 	font-variant: small-caps;
 	text-shadow: 2px 2px white;
-	z-index: 2;
 }
 
-.localcontent, 
-.main-header,
-.main_footer {
+#topmenu {
+	margin-left: 350px;
+	right: 20px;
+	font-size: 0.9em;
+	position: absolute;
+	bottom: 0px;
+	right: 20px;
+}
+#topmenu ul {
+	list-style-type: none;
+}
+#topmenu ul.toplinks {
+	margin: 0px;
+	padding: 0px;
+}
+#topmenu ul li {
+	float: left;
+	margin: 0px 2px;
+	padding: 0px 3px;
+	background-color: #E6DD93;
+	border: solid black 1px;
+	border-radius: 5px 5px 0 0;
+	font-family: "Arial Narrow",Arial, sans-serif
+	font-size: 0.8rem;
+}
+#topmenu ul > ul a {
+	color: black;
+	display: block;
+	margin: 0px 6px;
+	padding: 0.3em 0.4em;	
+}
+
+/* layout for three columns with responsive design */
+#content {
 	overflow: hidden;
 	padding: 0;
 }
@@ -75,17 +105,17 @@ body {
 	padding-left: 5px;
 }
 
-.main-header, 
-.main-footer, 
+#header, 
+#footer, 
 .column {
 	border-radius: 5px;
 }
 
-.main-footer {
+#footer {
 	text-align: center;
 }
 
-.contact {
+#contact {
 	width:50%;
 	margin-left: auto;
     margin-right: auto;
@@ -96,7 +126,7 @@ body {
 
 .map_canvas {
 	position: relative;
-	padding-bottom: 100%; // This is the aspect ratio
+	padding-bottom: 100%; /*This is the aspect ratio*/
 	height: 0;
 	overflow: hidden;
 }
@@ -138,7 +168,7 @@ body {
 
 /* widest screens */
 @media only screen and (min-width: 1023px) {
-	.wholepage {
+	#wholepage {
 		width: 1023px;
 	}
 }

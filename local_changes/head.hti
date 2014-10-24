@@ -3,7 +3,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Demo of Second Judicial District Court</title>
-    <link href="p7iq/p7iqGlobal_basic.css" rel="stylesheet" type="text/css" />
+<!--     <link href="p7iq/p7iqGlobal_basic.css" rel="stylesheet" type="text/css" /> -->
     <script type="text/javascript" src="p7tmm/p7TMMscripts.js"></script>
     <link href="p7tmm/p7TMM04.css" rel="stylesheet" type="text/css" media="all" />
     <link href="local_changes/local_changes.css" rel="stylesheet" type="text/css">
