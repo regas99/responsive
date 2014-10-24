@@ -33,12 +33,13 @@ body {
 	padding: 0px 20px;
 }
 .hdrtext {  /* support for location 1 */
-	position: relative;
-	color: black;
+	position: absolute;
 	left: 10px;
-	top: -205px;
+	top: 10px;
+	color: black;
 	font: small-caps 1.3em/1.6em sans-serif;
 	text-shadow: 2px 2px white;
+	padding-bottom: 10px;
 }
 #header-text {
 	display: block;
