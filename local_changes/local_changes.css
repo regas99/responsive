@@ -56,7 +56,7 @@ body {
 #topmenu {
 	margin-left: 350px;
 	right: 20px;
-	font-size: 0.9em;
+	font-size: 0.7em;
 	position: absolute;
 	bottom: 0px;
 	right: 20px;
@@ -82,7 +82,7 @@ body {
 	color: black;
 	display: block;
 	margin: 0px 6px;
-	padding: 0.3em 0.4em;	
+	padding: 0.3em 0.4em;
 }
 
 /* layout for three columns with responsive design */
@@ -149,10 +149,9 @@ body {
 }
 
 
-
-/* phones to tablets */
+/* miniscule displays
 /* show left menu and center content; hide right */
-@media only screen and (min-width: 481px) {
+@media only screen and (min-width: 1px) {
 	.left {
 		width: 20%;
 		}
@@ -160,7 +159,17 @@ body {
 		width: 79.01287554%;
 		margin-right: 0;
 	}
+	#topmenu ul.toplinks {
+		font-size: 50%;
+	}
+
 }
+
+/* phones to tablets */
+@media only screen and (min-width: 481px) {
+	#topmenu ul.toplinks {
+		font-size: 90%;
+	}
 
 /* Tablets to Desktop */
 /* show all three columns */
@@ -172,7 +181,9 @@ body {
 		display: block;
 		width: 19.39759036%;
 	}
-
+	#topmenu ul.toplinks {
+		font-size: 130%;
+	}
 }
 
 /* widest screens */
