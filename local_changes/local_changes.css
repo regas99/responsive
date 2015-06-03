@@ -94,11 +94,10 @@ body {
 .column {
 	float: left;
 	overflow: hidden;
-	display: block;
 }
 .left {
+	display: none;
 	background: #3498DB;
-	width: 75%;
 }
 .center {
 	background: white;
@@ -150,13 +149,10 @@ body {
 
 
 /* miniscule displays
-/* show left menu and center content; hide right */
+/* show center content; hide left and right */
 @media only screen and (min-width: 1px) {
-	.left {
-		width: 20%;
-		}
 	.center {
-		width: 79.01287554%;
+		width: 100%;
 		margin-right: 0;
 	}
 	#topmenu ul.toplinks {
@@ -168,8 +164,23 @@ body {
 /* phones to tablets */
 @media only screen and (min-width: 481px) {
 	#topmenu ul.toplinks {
-		font-size: 90%;
+		font-size: 100%;
 	}
+	.left {
+		display: block;
+		width: 19.39759036%;
+	}
+	.center {
+		width: 80%;
+		margin-right: 0;
+	}
+
+/* mid-way between desktop and tablet */
+@media only screen and (min-width: 620px) {
+	#topmenu ul.toplinks {
+		font-size: 110%;
+	}
+}
 
 /* Tablets to Desktop */
 /* show all three columns */
